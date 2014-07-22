@@ -1,0 +1,128 @@
+/*--------------------------------------------------------------
+Header
+--------------------------------------------------------------*/
+.site-header {
+	/*position: relative;*/
+	background: linear-gradient(rgba(23, 22, 23, 0.6), rgba(23, 22, 23, 0.6)), url(http://www.blakecilwick.com/wp-content/uploads/2014/06/photos-montana-19.jpg) no-repeat center fixed;
+	opacity: 0.95;
+    	filter: alpha(opacity=95);
+    	background-size: cover;
+	margin-bottom: 2em;
+	height: 700px;
+	z-index: -1;
+	box-shadow: 0 0 15px black;
+}
+.container {
+	padding-left: 20px;
+	padding-right: 20px;
+	z-index: 1;
+}
+.row {
+	width: 100%;
+	max-width: 1100px;
+	min-width: 715px;
+	margin: 0 auto;
+	overflow: hidden;
+	font-size: 30px;
+	margin-top: 1em;
+}
+.row h1 {
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0 1px 4px #000000;
+	font-weight: 400;
+}
+.row h2 {
+	color: #FFFFFF;
+	text-align: center;
+	text-shadow: 0 1px 4px #000000;
+	font-weight: 400;
+}
+.row .eightcol {
+	width: 65.4%;
+	margin: 0 auto;
+}
+header .intro h1 {
+	font-size: 2em;
+	color: #ffffff;
+	margin: 60px 0 20px 0%;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+header .intro p {
+	font-size: 1em;
+	color: #ffffff;
+	line-height: 1.4em;
+	font-weight: 300;
+	margin: 0 0 1em 0;
+}
+header .intro {
+	text-align: center;
+}
+header .intro a {
+	margin: 0 auto 0 0;
+}
+.portfolio-link {
+	background: #87CEEB;
+	-webkit-border-radius: 5px;
+	padding: .5em .9em;
+	-webkit-transition: 0.4s ease-in-out all;
+	text-transform: uppercase;
+	border: none;
+	color: #FFF;
+	font-family: 'atrament-web', Helvetica, Arial, Verdana, sans-serif;
+	color: #FFF;
+	font-weight: 700;
+	display: inline-block;
+	font-style: normal;
+	text-decoration: none;
+	font-size: 18px;
+	text-shadow: 0 0 0.5px black;
+}
+.portfolio-link:link {color: #FFFFFF;}
+.portfolio-link:visited {color: #FFFFFF;}
+.portfolio-link:hover {
+	background: black; 
+	color: #ffffff; 
+}
+.portfolio-link:current {color: #FFFFFF;}
+.twocol {
+	width: 13.45%;
+}
+header .logo img {
+	display: block;
+	float: left;
+	margin: 26px 0 0;
+	-webkit-transition: -webkit-transform 1s;
+	-moz-transition: -moz-transform 1s;
+	-o-transition: -o-transform 1s;
+	-ms-transition: -ms-transform 1s;
+	transition: transform 1s;
+}
+header .intro h1 {
+	font-family: 'Oswald', sans-serif;
+}
+
+/*--------------------------------------------------------------
+Navigation
+--------------------------------------------------------------*/
+.site-navigation {
+	z-index: 1;
+}
+.menu {
+	float: right;
+	margin-top: 4em;
+	-webkit-transition: 0.4s ease-in-out all;
+}
+.nav-menu li a {
+	color: #FFFFFF;
+	font-size: 18px;
+	-webkit-transition: 0.4s ease-in-out all;
+}
+.menu .nav-menu a:link {color: #FFFFFF;}
+.menu .nav-menu a:visited {color: #FFFFFF;}
+.menu .nav-menu a:hover {margin-top: -0.25em; font-size: 18.1px;}
+.menu .nav-menu a:current {color: #4682B4;}
+.nav-menu li {
+	padding-left: 20px;
+}
